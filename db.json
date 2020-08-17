@@ -35,7 +35,7 @@
       { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"}
     ], "totalPrice": "0.00", "source": [{"lat": "bbsr", "lon": "abc"}], "destination": [{"lat": "bbsr", "lon": "abc"}], "agentName": "Pabitra", "deliveryTime": "10 min"},
     { "orderId": "order1", "itemList": [
-      { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2",
+      { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"},
       { "itemId": "Item2", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"},
       { "itemId": "Item3", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"}
     ], "totalPrice": "0.00", "source": [{"lat": "bbsr", "lon": "abc"}], "destination": [{"lat": "bbsr", "lon": "abc"}], "agentName": "Pabitra", "deliveryTime": "10 min"}
