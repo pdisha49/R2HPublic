@@ -1,14 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "buyers": [
+    { "buyerId": "Buyer1", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995", "address": "bbsr", "password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "buyerId": "Buyer2", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995", "address": "bbsr", "password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "buyerId": "Buyer3", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995", "address": "bbsr", "password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "buyerId": "Buyer4", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995", "address": "bbsr", "password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "buyerId": "Buyer5", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995", "address": "bbsr", "password": "abc", "lat": "bbsr", "lon": "abc" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "sellers": [
+    { "sellerId": "Seller1", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "sellerId": "Seller2", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "sellerId": "Seller3", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "sellerId": "Seller4", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "sellerId": "Seller5", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "agents": [
+    { "agentId": "Agent1", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "agentId": "Agent2", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "agentId": "Agent3", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "agentId": "Agent4", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" },
+    { "agentId": "Agent5", "sellerType": "rasan", "firstName": "Tikun", "lastName": "Jena", "phone": "123456789", "email": "abc@gmail.com", "dob": "20 May 1995","address": "bbsr","password": "abc", "lat": "bbsr", "lon": "abc" }
+  ],
+  "items": [
+    { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemStock": "yes"},
+    { "itemId": "Item2", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemStock": "yes"},
+    { "itemId": "Item3", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemStock": "yes"},
+    { "itemId": "Item4", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemStock": "yes"},
+    { "itemId": "Item5", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemStock": "yes"}
+  ],
+  "orders": [
+    { "orderId": "order1", "itemList": [
+      { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"}
+    ], "totalPrice": "0.00", "source": [{"lat": "bbsr", "lon": "abc"}], "destination": [{"lat": "bbsr", "lon": "abc"}], "agentName": "Pabitra", deliveryTime: "10 min"},
+    { "orderId": "order1", "itemList": [
+      { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"}
+    ], "totalPrice": "0.00", "source": [{"lat": "bbsr", "lon": "abc"}], "destination": [{"lat": "bbsr", "lon": "abc"}], "agentName": "Pabitra", deliveryTime: "10 min"},
+    { "orderId": "order1", "itemList": [
+      { "itemId": "Item1", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2",
+      { "itemId": "Item2", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"},
+      { "itemId": "Item3", "itemType": "rasan", "price": "0.00", "itemName": "Jena", "itemMeasure": "kg", "itemQuantity": "2"}
+    ], "totalPrice": "0.00", "source": [{"lat": "bbsr", "lon": "abc"}], "destination": [{"lat": "bbsr", "lon": "abc"}], "agentName": "Pabitra", deliveryTime: "10 min"}
+  ]  
 }
